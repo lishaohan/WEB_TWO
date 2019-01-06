@@ -42,7 +42,7 @@ a{
 }
 .top1{
 	float: right;
-	width: 620px;
+	width: 700px;
 	height: 33px;
 	border: 0px solid red;
 }
@@ -110,7 +110,7 @@ a{
 .hlep p{
 	font-size: 11px;
 	color: grey;
-	margin-left: 5px;
+
 }
 .spe{
 	background-color: #ff4d04;
@@ -140,10 +140,11 @@ a{
 	margin:0 auto;
 }
 .la{
-	position: absolute;
+	position: relative;
+	margin: 0 auto;
 	width: 1180px;
 	height: 40px;
-	left: 50px;
+
 }
 .ck{
 	position: absolute;
