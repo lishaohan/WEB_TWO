@@ -135,8 +135,8 @@
 		</div>
 
 	</div>
-	<div class="pictrue">
-		<img style="margin-left: 50px" src="imgs/a_07.jpg">
+	<div class="pictrue" style="text-align: center;">
+		<img style="" src="imgs/a_07.jpg">
 	</div>
 	<!-- 底部 -->
 	<div class="last">
@@ -250,6 +250,8 @@
 			//解决纵向滑动条的问题
   			var offset = document.documentElement.scrollTop;
 			//(1)根据鼠标位置，计算放大镜的位置
+			// var left = ev.clientX - top_left.offsetLeft - slider.offsetWidth/2-10;
+			// var top = ev.clientY - top_left.offsetTop - slider.offsetHeight/2 + offset-10;
 			var left = ev.clientX - top_left.offsetLeft - slider.offsetWidth/2-10;
 			var top = ev.clientY - top_left.offsetTop - slider.offsetHeight/2 + offset-10;
 			var maxLeft = pro_one.offsetWidth - slider.offsetWidth;
