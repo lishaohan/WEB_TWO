@@ -43,7 +43,7 @@ a{
 }
 .top1{
 	float: right;
-	width: 620px;
+	width: 700px;
 	height: 33px;
 	border: 0px solid red;
 }
@@ -111,7 +111,7 @@ input{
 .hlep p{
 	font-size: 11px;
 	color: grey;
-	margin-left: 5px;
+	/*margin-left: 5px;*/
 }
 .spe{
 	background-color: #ff4d04;
@@ -274,8 +274,13 @@ input{
 }
 .kinds li{
 	float: left;
+	
+	margin:11px 9px 0px 3px;
+}
+.kinds li a{
 	font-size: 10px;
-	margin:15px 9px 4px 8px;
+	color: black;
+
 }
 .question p{
 	position: relative;
@@ -512,14 +517,16 @@ input{
 	border:0.1px solid #ff9260;
 	width: 130px;
 	height: 45px;
-	bottom: 400px;
-	left:1216px;/*1136*/
+	top: 115px;
+	/*left:1216px;*//*1136*/
+	right: -85px;
 
 }
 #on{
 	position: fixed;
-	bottom: 445px;
-	left: 1216px;/*1135*/
+	top: 55px;
+	/*left: 1216px;/*1135*/
+	right: -85px;
 }
 #ne{
 	position: fixed;
@@ -531,8 +538,9 @@ input{
 	border:0.1px solid #ff9260;
 	width: 130px;
 	height: 140px;
-	bottom: 258px;
-	left: 1216px;/*//1135*/
+	top: 168px;
+	/*left: 1216px;/*/
+	right: -85px;
 }
 #second_text{
 
@@ -550,17 +558,19 @@ input{
 	border:0.1px solid #ff9260;
 	width: 130px;
 	height: 150px;
-	bottom: 105px;
-	left: 1216px;/*/1135*/
+	top: 313px;
+	/*/1135*/
+	right: -85px;
 }
 #da{
 	position: fixed;
-	left: 1265px;
+	/*left: 1265px;*/
+	right: -89px;
 	/*display: none;*/
 }
 #xiao{
 	position: fixed;
-	top: 450px;
+	top: 420px;
 	right: 10px;
 	display: block;
 }
@@ -570,6 +580,7 @@ input{
 	border:0.1px solid #ff9260;
 	width: 130px;
 	height: 100px;
-	bottom: 0px;
-	left: 1216px;/*//1135*/
+	top: 468px;
+	/*//1135*/
+	right: -85px;
 }
